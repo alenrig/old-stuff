@@ -1,0 +1,11 @@
+#!/usr/bin/gnuplot
+
+set terminal pdf
+set output outputprefix.".pdf"
+
+set xlabel "depth [nm]"
+set ylabel "intensity [1/s]"
+
+plot original with lines title "Original response",\
+     outputprefix."_response" with lines title "Restored response",\
+     outputprefix."_input" with lines title "Restored input"

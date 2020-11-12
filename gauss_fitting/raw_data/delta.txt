@@ -1,0 +1,3 @@
+lamdaG = 1.85
+sigma = 2.11
+lamdaD = 0.645
